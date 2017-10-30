@@ -17,6 +17,8 @@ sudo apt-get install libbullet-dev
 ```
 git clone https://github.com/twailurus/ros_pcl.git
 cd ros_pcl/src
+git submodule init
+git submodule update 
 catkin_init_workspace
 cd ..
 catkin_make
