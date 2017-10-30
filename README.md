@@ -24,13 +24,16 @@ source devel/setup.bash
 ```
 ### How to Use
 ```
+cd [your_workingspace]
+```
+Modify CMakeLists.txt
+```
 find_package(catkin REQUIRED COMPONENTS
   pcl_ros
   roscpp
   sensor_msgs
 )
 ```
-
 Remember also modify your package.xml
 
 See also [ROS Document, pcl_ros](http://wiki.ros.org/pcl_ros)
