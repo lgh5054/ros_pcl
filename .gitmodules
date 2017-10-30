@@ -1,0 +1,12 @@
+[submodule "src/geometry2"]
+	path = src/geometry2
+	url = https://github.com/ros/geometry2.git
+[submodule "src/pcl_conversions"]
+	path = src/pcl_conversions
+	url = https://github.com/ros-perception/pcl_conversions.git
+[submodule "src/pcl_msgs"]
+	path = src/pcl_msgs
+	url = https://github.com/ros-perception/pcl_msgs.git
+[submodule "src/perception_pcl"]
+	path = src/perception_pcl
+	url = https://github.com/ros-perception/perception_pcl.git
