@@ -3,18 +3,31 @@
 ## Requirements
 
 ### Environment
-- ROS Kinetic Kame (Ubuntu 16.04)
+- Nvidia Jetson TX2 (tegra-ubuntu)
+- ROS Kinetic Kame (ubuntu 16.04)
 - PCL: 1.8.1
 - CUDA(Optional)
 
-### Install dependencies for Ubuntu 16.04
+### Install dependencies for ubuntu 16.04
 
 ```
 sudo apt-get install libbullet-dev
 ```
 
-### How to Build
 ```
+cd ~
+git clone https://github.com/orocos/orocos_kinematics_dynamics iso_ws/src
+cd iso_ws/src
+catkin_init_workspace
+cd ..
+catkin_make_isolated
+source devel_isolated/setup.bash
+```
+
+### Build PCL (Point Cloud Library) ROS interface 
+
+```
+cd ~
 git clone https://github.com/twailurus/ros_pcl.git
 cd ros_pcl/src
 git submodule init
@@ -24,7 +37,9 @@ cd ..
 catkin_make
 source devel/setup.bash
 ```
+
 ### How to Use
+
 ```
 cd [your_workingspace]
 ```
