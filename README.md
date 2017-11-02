@@ -22,7 +22,7 @@ git submodule update
 catkin_init_workspace
 cd ..
 catkin_make
-source devel/setup.bash
+echo "source ~/ros_pcl/devel/setup.bash" >> ~/.bashrc
 ```
 ### How to Use
 ```
