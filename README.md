@@ -53,4 +53,4 @@ find_package(catkin REQUIRED COMPONENTS
 ```
 Remember also modify your package.xml
 
-See also [ROS Document, pcl_ros](http://wiki.ros.org/pcl_ros)
+See also [ROS Document, pcl](http://wiki.ros.org/pcl/Overview)
