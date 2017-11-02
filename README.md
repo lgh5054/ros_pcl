@@ -34,7 +34,7 @@ git submodule init
 git submodule update 
 catkin_init_workspace
 cd ..
-catkin_make
+catkin_make -j2
 source devel/setup.bash
 ```
 
