@@ -21,7 +21,7 @@ cd iso_ws/src
 catkin_init_workspace
 cd ..
 catkin_make_isolated
-source devel_isolated/setup.bash
+echo "source ~/iso_ws/devel_isolated/setup.bash" >> ~/.bashrc
 ```
 
 ### Build PCL (Point Cloud Library) ROS interface 
@@ -35,7 +35,7 @@ git submodule update
 catkin_init_workspace
 cd ..
 catkin_make -j2
-source devel/setup.bash
+echo "source ~/ros_pcl/devel/setup.bash" >> ~/.bashrc
 ```
 
 ### How to Use
