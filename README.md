@@ -11,6 +11,7 @@
 
 ```
 sudo apt-get install libbullet-dev
+sudo apt-get install ros-kinetic-tf
 ```
 
 ### How to Build
