@@ -3,16 +3,14 @@
 ## Requirements
 
 ### Environment
-- ROS Kinetic Kame (Ubuntu 16.04)
-- PCL: 1.8.1
+- ROS Melodic Morenia (Ubuntu 18.04)
+- PCL: 1.9.1
 - CUDA(Optional)
 
-### Install dependencies for Ubuntu 16.04
+### Install dependencies for Ubuntu 18.04
 
 ```
-sudo apt-get install libbullet-dev
-sudo apt-get install ros-kinetic-tf
-sudo apt-get install ros-kinetic-orocos-kdl 
+rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
 ```
 
 ### How to Build
