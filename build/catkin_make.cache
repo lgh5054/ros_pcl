@@ -1,2 +1,0 @@
-pcl_conversions:pcl_ros:perception_pcl
--DCATKIN_DEVEL_PREFIX=/home/nvidia/Library/ros_pcl/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/Library/ros_pcl/install -G Unix Makefiles
