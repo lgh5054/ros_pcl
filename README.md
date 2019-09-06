@@ -10,17 +10,12 @@
 ### Install dependencies for Ubuntu 18.04
 
 ```
+cd ros_pcl
 rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
 ```
 
 ### How to Build
 ```
-git clone https://github.com/twailurus/ros_pcl.git
-cd ros_pcl/src
-git submodule init
-git submodule update 
-catkin_init_workspace
-cd ..
 catkin_make
 echo "source ~/ros_pcl/devel/setup.bash" >> ~/.bashrc
 ```
